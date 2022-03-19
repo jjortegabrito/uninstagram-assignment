@@ -1,0 +1,775 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		02B279A36550AF47F803442A /* Pods_Uninstagram.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39659F39BA08F1B30A1C3371 /* Pods_Uninstagram.framework */; };
+		1A3FE48527D52B0D0050B4B6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A3FE48427D52B0D0050B4B6 /* AppDelegate.swift */; };
+		1A3FE48727D52B0D0050B4B6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A3FE48627D52B0D0050B4B6 /* SceneDelegate.swift */; };
+		1A3FE48C27D52B0D0050B4B6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A3FE48A27D52B0D0050B4B6 /* Main.storyboard */; };
+		1A3FE48E27D52B0E0050B4B6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A3FE48D27D52B0E0050B4B6 /* Assets.xcassets */; };
+		1A3FE49127D52B0E0050B4B6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A3FE48F27D52B0E0050B4B6 /* LaunchScreen.storyboard */; };
+		1A3FE49C27D52B0E0050B4B6 /* UninstagramTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A3FE49B27D52B0E0050B4B6 /* UninstagramTests.swift */; };
+		1A3FE4A627D52B0E0050B4B6 /* UninstagramUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A3FE4A527D52B0E0050B4B6 /* UninstagramUITests.swift */; };
+		1A3FE4A827D52B0E0050B4B6 /* UninstagramUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A3FE4A727D52B0E0050B4B6 /* UninstagramUITestsLaunchTests.swift */; };
+		1ABE020427D53592004ECDE0 /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ABE020327D53592004ECDE0 /* FeedViewController.swift */; };
+		1ABE020627D535C4004ECDE0 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ABE020527D535C4004ECDE0 /* LoginViewController.swift */; };
+		1ACAC73E27D69FC60000DB2B /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ACAC73D27D69FC60000DB2B /* CameraViewController.swift */; };
+		1ACAC74027D6ACA50000DB2B /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ACAC73F27D6ACA50000DB2B /* PostCell.swift */; };
+		6383CE3DC7C8ED2CEBFE443A /* Pods_UninstagramTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8DC679C5E2E428A5F875204 /* Pods_UninstagramTests.framework */; };
+		9044529C9564CFF94CA49AEA /* Pods_Uninstagram_UninstagramUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2280638377DB3DC1C26F82B0 /* Pods_Uninstagram_UninstagramUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1A3FE49827D52B0E0050B4B6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1A3FE47927D52B0D0050B4B6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1A3FE48027D52B0D0050B4B6;
+			remoteInfo = Uninstagram;
+		};
+		1A3FE4A227D52B0E0050B4B6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1A3FE47927D52B0D0050B4B6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1A3FE48027D52B0D0050B4B6;
+			remoteInfo = Uninstagram;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0D5C1E92621E9A1012B0EE22 /* Pods-Uninstagram.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Uninstagram.release.xcconfig"; path = "Target Support Files/Pods-Uninstagram/Pods-Uninstagram.release.xcconfig"; sourceTree = "<group>"; };
+		0DAB3692864C629FF43D847B /* Pods-Uninstagram.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Uninstagram.debug.xcconfig"; path = "Target Support Files/Pods-Uninstagram/Pods-Uninstagram.debug.xcconfig"; sourceTree = "<group>"; };
+		19030F3D4EB7BE424AA8C1B7 /* Pods-Uninstagram-UninstagramUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Uninstagram-UninstagramUITests.debug.xcconfig"; path = "Target Support Files/Pods-Uninstagram-UninstagramUITests/Pods-Uninstagram-UninstagramUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		1A3FE48127D52B0D0050B4B6 /* Uninstagram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Uninstagram.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A3FE48427D52B0D0050B4B6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1A3FE48627D52B0D0050B4B6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		1A3FE48B27D52B0D0050B4B6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1A3FE48D27D52B0E0050B4B6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1A3FE49027D52B0E0050B4B6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1A3FE49227D52B0E0050B4B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1A3FE49727D52B0E0050B4B6 /* UninstagramTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UninstagramTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A3FE49B27D52B0E0050B4B6 /* UninstagramTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UninstagramTests.swift; sourceTree = "<group>"; };
+		1A3FE4A127D52B0E0050B4B6 /* UninstagramUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UninstagramUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A3FE4A527D52B0E0050B4B6 /* UninstagramUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UninstagramUITests.swift; sourceTree = "<group>"; };
+		1A3FE4A727D52B0E0050B4B6 /* UninstagramUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UninstagramUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		1ABE020327D53592004ECDE0 /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
+		1ABE020527D535C4004ECDE0 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		1ACAC73D27D69FC60000DB2B /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
+		1ACAC73F27D6ACA50000DB2B /* PostCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
+		2280638377DB3DC1C26F82B0 /* Pods_Uninstagram_UninstagramUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Uninstagram_UninstagramUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		39659F39BA08F1B30A1C3371 /* Pods_Uninstagram.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Uninstagram.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		41BE8ED7A45BE0C076B1B36C /* Pods-UninstagramTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UninstagramTests.debug.xcconfig"; path = "Target Support Files/Pods-UninstagramTests/Pods-UninstagramTests.debug.xcconfig"; sourceTree = "<group>"; };
+		5F92183AD4A4B4DC7D924FCD /* Pods-Uninstagram-UninstagramUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Uninstagram-UninstagramUITests.release.xcconfig"; path = "Target Support Files/Pods-Uninstagram-UninstagramUITests/Pods-Uninstagram-UninstagramUITests.release.xcconfig"; sourceTree = "<group>"; };
+		A6EE9A9053D9C45E9D87E476 /* Pods-UninstagramTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UninstagramTests.release.xcconfig"; path = "Target Support Files/Pods-UninstagramTests/Pods-UninstagramTests.release.xcconfig"; sourceTree = "<group>"; };
+		C8DC679C5E2E428A5F875204 /* Pods_UninstagramTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UninstagramTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1A3FE47E27D52B0D0050B4B6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02B279A36550AF47F803442A /* Pods_Uninstagram.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A3FE49427D52B0E0050B4B6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6383CE3DC7C8ED2CEBFE443A /* Pods_UninstagramTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A3FE49E27D52B0E0050B4B6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9044529C9564CFF94CA49AEA /* Pods_Uninstagram_UninstagramUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1A3FE47827D52B0D0050B4B6 = {
+			isa = PBXGroup;
+			children = (
+				1A3FE48327D52B0D0050B4B6 /* Uninstagram */,
+				1A3FE49A27D52B0E0050B4B6 /* UninstagramTests */,
+				1A3FE4A427D52B0E0050B4B6 /* UninstagramUITests */,
+				1A3FE48227D52B0D0050B4B6 /* Products */,
+				E57CDE32638303D3A2FF602F /* Pods */,
+				E7AC09B8F36AD290D5492EC9 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1A3FE48227D52B0D0050B4B6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1A3FE48127D52B0D0050B4B6 /* Uninstagram.app */,
+				1A3FE49727D52B0E0050B4B6 /* UninstagramTests.xctest */,
+				1A3FE4A127D52B0E0050B4B6 /* UninstagramUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1A3FE48327D52B0D0050B4B6 /* Uninstagram */ = {
+			isa = PBXGroup;
+			children = (
+				1A3FE48427D52B0D0050B4B6 /* AppDelegate.swift */,
+				1A3FE48627D52B0D0050B4B6 /* SceneDelegate.swift */,
+				1A3FE48A27D52B0D0050B4B6 /* Main.storyboard */,
+				1A3FE48D27D52B0E0050B4B6 /* Assets.xcassets */,
+				1A3FE48F27D52B0E0050B4B6 /* LaunchScreen.storyboard */,
+				1A3FE49227D52B0E0050B4B6 /* Info.plist */,
+				1ABE020327D53592004ECDE0 /* FeedViewController.swift */,
+				1ABE020527D535C4004ECDE0 /* LoginViewController.swift */,
+				1ACAC73D27D69FC60000DB2B /* CameraViewController.swift */,
+				1ACAC73F27D6ACA50000DB2B /* PostCell.swift */,
+			);
+			path = Uninstagram;
+			sourceTree = "<group>";
+		};
+		1A3FE49A27D52B0E0050B4B6 /* UninstagramTests */ = {
+			isa = PBXGroup;
+			children = (
+				1A3FE49B27D52B0E0050B4B6 /* UninstagramTests.swift */,
+			);
+			path = UninstagramTests;
+			sourceTree = "<group>";
+		};
+		1A3FE4A427D52B0E0050B4B6 /* UninstagramUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1A3FE4A527D52B0E0050B4B6 /* UninstagramUITests.swift */,
+				1A3FE4A727D52B0E0050B4B6 /* UninstagramUITestsLaunchTests.swift */,
+			);
+			path = UninstagramUITests;
+			sourceTree = "<group>";
+		};
+		E57CDE32638303D3A2FF602F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0DAB3692864C629FF43D847B /* Pods-Uninstagram.debug.xcconfig */,
+				0D5C1E92621E9A1012B0EE22 /* Pods-Uninstagram.release.xcconfig */,
+				19030F3D4EB7BE424AA8C1B7 /* Pods-Uninstagram-UninstagramUITests.debug.xcconfig */,
+				5F92183AD4A4B4DC7D924FCD /* Pods-Uninstagram-UninstagramUITests.release.xcconfig */,
+				41BE8ED7A45BE0C076B1B36C /* Pods-UninstagramTests.debug.xcconfig */,
+				A6EE9A9053D9C45E9D87E476 /* Pods-UninstagramTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		E7AC09B8F36AD290D5492EC9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				39659F39BA08F1B30A1C3371 /* Pods_Uninstagram.framework */,
+				2280638377DB3DC1C26F82B0 /* Pods_Uninstagram_UninstagramUITests.framework */,
+				C8DC679C5E2E428A5F875204 /* Pods_UninstagramTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1A3FE48027D52B0D0050B4B6 /* Uninstagram */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A3FE4AB27D52B0E0050B4B6 /* Build configuration list for PBXNativeTarget "Uninstagram" */;
+			buildPhases = (
+				7C4E487D39169CBBA1B742D9 /* [CP] Check Pods Manifest.lock */,
+				1A3FE47D27D52B0D0050B4B6 /* Sources */,
+				1A3FE47E27D52B0D0050B4B6 /* Frameworks */,
+				1A3FE47F27D52B0D0050B4B6 /* Resources */,
+				8F61E8100AAB96EE3054E828 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Uninstagram;
+			productName = Uninstagram;
+			productReference = 1A3FE48127D52B0D0050B4B6 /* Uninstagram.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1A3FE49627D52B0E0050B4B6 /* UninstagramTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A3FE4AE27D52B0E0050B4B6 /* Build configuration list for PBXNativeTarget "UninstagramTests" */;
+			buildPhases = (
+				BF817231EDA25207DAABCFC2 /* [CP] Check Pods Manifest.lock */,
+				1A3FE49327D52B0E0050B4B6 /* Sources */,
+				1A3FE49427D52B0E0050B4B6 /* Frameworks */,
+				1A3FE49527D52B0E0050B4B6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1A3FE49927D52B0E0050B4B6 /* PBXTargetDependency */,
+			);
+			name = UninstagramTests;
+			productName = UninstagramTests;
+			productReference = 1A3FE49727D52B0E0050B4B6 /* UninstagramTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1A3FE4A027D52B0E0050B4B6 /* UninstagramUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A3FE4B127D52B0E0050B4B6 /* Build configuration list for PBXNativeTarget "UninstagramUITests" */;
+			buildPhases = (
+				1AE75E2913FFCA171AACCF96 /* [CP] Check Pods Manifest.lock */,
+				1A3FE49D27D52B0E0050B4B6 /* Sources */,
+				1A3FE49E27D52B0E0050B4B6 /* Frameworks */,
+				1A3FE49F27D52B0E0050B4B6 /* Resources */,
+				9517EEA87798591B66C4FECC /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1A3FE4A327D52B0E0050B4B6 /* PBXTargetDependency */,
+			);
+			name = UninstagramUITests;
+			productName = UninstagramUITests;
+			productReference = 1A3FE4A127D52B0E0050B4B6 /* UninstagramUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1A3FE47927D52B0D0050B4B6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					1A3FE48027D52B0D0050B4B6 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					1A3FE49627D52B0E0050B4B6 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 1A3FE48027D52B0D0050B4B6;
+					};
+					1A3FE4A027D52B0E0050B4B6 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 1A3FE48027D52B0D0050B4B6;
+					};
+				};
+			};
+			buildConfigurationList = 1A3FE47C27D52B0D0050B4B6 /* Build configuration list for PBXProject "Uninstagram" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1A3FE47827D52B0D0050B4B6;
+			productRefGroup = 1A3FE48227D52B0D0050B4B6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1A3FE48027D52B0D0050B4B6 /* Uninstagram */,
+				1A3FE49627D52B0E0050B4B6 /* UninstagramTests */,
+				1A3FE4A027D52B0E0050B4B6 /* UninstagramUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1A3FE47F27D52B0D0050B4B6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A3FE49127D52B0E0050B4B6 /* LaunchScreen.storyboard in Resources */,
+				1A3FE48E27D52B0E0050B4B6 /* Assets.xcassets in Resources */,
+				1A3FE48C27D52B0D0050B4B6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A3FE49527D52B0E0050B4B6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A3FE49F27D52B0E0050B4B6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1AE75E2913FFCA171AACCF96 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Uninstagram-UninstagramUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7C4E487D39169CBBA1B742D9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Uninstagram-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8F61E8100AAB96EE3054E828 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Uninstagram/Pods-Uninstagram-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Uninstagram/Pods-Uninstagram-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Uninstagram/Pods-Uninstagram-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9517EEA87798591B66C4FECC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Uninstagram-UninstagramUITests/Pods-Uninstagram-UninstagramUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Uninstagram-UninstagramUITests/Pods-Uninstagram-UninstagramUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Uninstagram-UninstagramUITests/Pods-Uninstagram-UninstagramUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BF817231EDA25207DAABCFC2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-UninstagramTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1A3FE47D27D52B0D0050B4B6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1ABE020627D535C4004ECDE0 /* LoginViewController.swift in Sources */,
+				1ACAC73E27D69FC60000DB2B /* CameraViewController.swift in Sources */,
+				1A3FE48527D52B0D0050B4B6 /* AppDelegate.swift in Sources */,
+				1ABE020427D53592004ECDE0 /* FeedViewController.swift in Sources */,
+				1A3FE48727D52B0D0050B4B6 /* SceneDelegate.swift in Sources */,
+				1ACAC74027D6ACA50000DB2B /* PostCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A3FE49327D52B0E0050B4B6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A3FE49C27D52B0E0050B4B6 /* UninstagramTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A3FE49D27D52B0E0050B4B6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A3FE4A827D52B0E0050B4B6 /* UninstagramUITestsLaunchTests.swift in Sources */,
+				1A3FE4A627D52B0E0050B4B6 /* UninstagramUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1A3FE49927D52B0E0050B4B6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1A3FE48027D52B0D0050B4B6 /* Uninstagram */;
+			targetProxy = 1A3FE49827D52B0E0050B4B6 /* PBXContainerItemProxy */;
+		};
+		1A3FE4A327D52B0E0050B4B6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1A3FE48027D52B0D0050B4B6 /* Uninstagram */;
+			targetProxy = 1A3FE4A227D52B0E0050B4B6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1A3FE48A27D52B0D0050B4B6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1A3FE48B27D52B0D0050B4B6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1A3FE48F27D52B0E0050B4B6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1A3FE49027D52B0E0050B4B6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1A3FE4A927D52B0E0050B4B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1A3FE4AA27D52B0E0050B4B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1A3FE4AC27D52B0E0050B4B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0DAB3692864C629FF43D847B /* Pods-Uninstagram.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2WYX9TTPG7;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Uninstagram/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jobrito.com.Uninstagram;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1A3FE4AD27D52B0E0050B4B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0D5C1E92621E9A1012B0EE22 /* Pods-Uninstagram.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2WYX9TTPG7;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Uninstagram/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jobrito.com.Uninstagram;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1A3FE4AF27D52B0E0050B4B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 41BE8ED7A45BE0C076B1B36C /* Pods-UninstagramTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2WYX9TTPG7;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jobrito.com.UninstagramTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Uninstagram.app/Uninstagram";
+			};
+			name = Debug;
+		};
+		1A3FE4B027D52B0E0050B4B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A6EE9A9053D9C45E9D87E476 /* Pods-UninstagramTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2WYX9TTPG7;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jobrito.com.UninstagramTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Uninstagram.app/Uninstagram";
+			};
+			name = Release;
+		};
+		1A3FE4B227D52B0E0050B4B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 19030F3D4EB7BE424AA8C1B7 /* Pods-Uninstagram-UninstagramUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2WYX9TTPG7;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jobrito.com.UninstagramUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Uninstagram;
+			};
+			name = Debug;
+		};
+		1A3FE4B327D52B0E0050B4B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5F92183AD4A4B4DC7D924FCD /* Pods-Uninstagram-UninstagramUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2WYX9TTPG7;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jobrito.com.UninstagramUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Uninstagram;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1A3FE47C27D52B0D0050B4B6 /* Build configuration list for PBXProject "Uninstagram" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A3FE4A927D52B0E0050B4B6 /* Debug */,
+				1A3FE4AA27D52B0E0050B4B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1A3FE4AB27D52B0E0050B4B6 /* Build configuration list for PBXNativeTarget "Uninstagram" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A3FE4AC27D52B0E0050B4B6 /* Debug */,
+				1A3FE4AD27D52B0E0050B4B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1A3FE4AE27D52B0E0050B4B6 /* Build configuration list for PBXNativeTarget "UninstagramTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A3FE4AF27D52B0E0050B4B6 /* Debug */,
+				1A3FE4B027D52B0E0050B4B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1A3FE4B127D52B0E0050B4B6 /* Build configuration list for PBXNativeTarget "UninstagramUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A3FE4B227D52B0E0050B4B6 /* Debug */,
+				1A3FE4B327D52B0E0050B4B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1A3FE47927D52B0D0050B4B6 /* Project object */;
+}
